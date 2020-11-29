@@ -130,3 +130,32 @@ aside::before {
 nav::before {
   content: "nav";
 }
+
+nav .site-navigation {
+  margin-top: 50px ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.site-navigation li {
+  margin: 0px;  
+  text-align: center;
+  list-style: none;
+  box-shadow: 0px 0px 5px 0px black ;
+  border-radius: 3px;
+}
+
+.site-navigation li:hover {
+  background-color: #424a57;  
+}
+
+.site-navigation a {
+  padding: 0px 50px 0px 50px;
+  margin: 0px; 
+  text-decoration: none;
+} 
+
+.site-navigation a:hover {
+  color:#c928d1;
+}
